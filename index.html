@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebGL Context Release</title>
+</head>
+<body>
+
+<h1>WebGL Context Release</h1>
+<fieldset>
+    <label>
+        Number of iterations:
+        <input id="iterations" type="number" value="16">
+    </label>
+
+    <label>
+        Use OffscreenCanvas:
+        <input id="offscreen-canvas" type="checkbox" checked>
+    </label>
+</fieldset>
+<p id="message">Click start to repeatedly create and lose WebGL context</p>
+<button id="start">Start</button>
+
+<script src="index.js" type="module"></script>
+
+</body>
+</html>
