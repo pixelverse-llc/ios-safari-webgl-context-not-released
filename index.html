@@ -4,31 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebGL Context Release</title>
-    <style>
-        fieldset {
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
 </head>
 <body>
 
 <h1>WebGL Context Release</h1>
-<fieldset>
-    <label>
-        Number of iterations:
-        <input id="iterations" type="number" value="16">
-    </label>
-
-    <label>
-        Use OffscreenCanvas:
-        <input id="offscreen-canvas" type="checkbox" checked>
-    </label>
-</fieldset>
+<label>
+    Number of iterations:
+    <input id="iterations" type="number" value="100">
+</label>
 <p id="message">Click start to repeatedly create and lose WebGL context</p>
 <button id="start">Start</button>
-
 <script src="index.js" type="module"></script>
-
 </body>
 </html>
